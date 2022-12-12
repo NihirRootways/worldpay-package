@@ -1,0 +1,26 @@
+{
+    "name": "rootways/worldpay",
+    "description": "A Laravel Framework wrapper for WorldPay Payment Transaction",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Rootways\\Worldpay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nihir",
+            "email": "nihir@rootways.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rootways\\Worldpay\\WorldPayServiceProvider.php"
+            ]
+        }
+    },
+    "require": {}
+}
